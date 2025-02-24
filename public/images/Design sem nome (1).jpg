@@ -1,1 +1,5 @@
-
+import { Image } from 'astro:assets';
+import corgi from '../assets/Desing sem nome(1).jpg';
+---
+// Later in your markup...
+<Image src={corgi} alt="Corgi" /* ... additional props */ />
